@@ -16,7 +16,7 @@ header {
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #77aaff 3px solid;
+    border-bottom: #008080 3px solid;
 }
 
 header h1 {
@@ -31,8 +31,13 @@ header h1 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px solid #008080;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    margin-left: 15px;
+    padding-left: 10px;
 }
 
 .main {

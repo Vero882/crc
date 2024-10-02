@@ -1,8 +1,49 @@
+/* Dark mode
+#dark-mode-toggle:checked~.container {
+    background-color: #333;
+    color: white;
+}
+
+#dark-mode-toggle:checked~.container .work-item {
+    background-color: #333;
+    color: white;
+}
+
+#dark-mode-toggle:checked~.container .company-logo {
+    color: white;
+}
+
+#dark-mode-toggle:checked~body {
+    background-color: #333;
+    color: white;
+}
+*/
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .container {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .work-item {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .company-logo {
+    color: white;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: white;
+    color: black;
 }
 
 .container {

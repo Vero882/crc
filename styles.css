@@ -1,8 +1,30 @@
+/* Dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .container {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .work-item {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .company-logo {
+    color: white;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: white;
+    color: black;
 }
 
 .container {
@@ -19,6 +41,16 @@ header {
     border-bottom: #008080 3px solid;
 }
 
+a:link {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #00cdcd;
+    text-decoration: none;
+}
+
 header h1 {
     text-align: center;
     text-transform: uppercase;
@@ -33,6 +65,34 @@ header h1 {
     border-radius: 50%;
     border: 5px solid #008080;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.company-logo {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #008080;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.work-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.work-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-item header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 ul {

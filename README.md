@@ -1,7 +1,7 @@
 # Professional Experience Static Website
 Thanks for visiting!
 
-This repository contains the source code for a static website showcasing my professional experience located at [https://crc.kubeklepsch.com/](https://crc.kubeklepsch.com/).
+This repository contains the source code for a static website showcasing my professional experience located at [https://crc.kubeklepsch.com/](https://work.kubeklepsch.com/).
 
 ## Description
 

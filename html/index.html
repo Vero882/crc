@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKlepsch Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <input type="checkbox" id="dark-mode-toggle" checked>
+
+    <div class="page">
+
+        <!-- ===== SIDEBAR ===== -->
+        <aside class="sidebar">
+
+            <label class="theme-switch" for="dark-mode-toggle" aria-label="Toggle dark mode">
+                <span class="theme-switch-track">
+                    <span class="theme-switch-icon sun">&#9728;</span>
+                    <span class="theme-switch-icon moon">&#9789;</span>
+                    <span class="theme-switch-thumb"></span>
+                </span>
+            </label>
+
+            <div class="identity">
+                <div class="avatar-frame">
+                    <img class="picture" src="images/profile.jpeg" alt="Jonathan Klepsch">
+                    <span class="status-dot" title="Available"></span>
+                </div>
+                <h1>Jonathan Klepsch</h1>
+                <p class="tagline">Hybrid Solutions Engineer</p>
+            </div>
+
+            <div class="side-section">
+                <h2>Contact</h2>
+                <ul class="contact-list">
+                    <li>
+                        <span class="icon-label">Email</span>
+                        <a href="mailto:KlepschJM@GMail.com" target="_blank" rel="noopener noreferrer"><img
+                                src=https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/synology-mail-plus.png
+                                height="18" width="22"> KlepschJM@GMail.com</a>
+                    </li>
+                    <li>
+                        <span class="icon-label">LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/jklepsch/" target="_blank" rel="noopener noreferrer"><img
+                                src=https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/linkedin.png height="18"
+                                width="18"> jklepsch</a>
+                    </li>
+                    <li>
+                        <span class="icon-label">GitHub</span>
+                        <a href="https://github.com/Vero882" target="_blank" rel="noopener noreferrer"><img
+                                src=https://cdn.jsdelivr.net/npm/@lobehub/icons-static-png@latest/dark/github.png
+                                height="18" width="18"> GitHub</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="side-section">
+                <h2>Skills</h2>
+                <ul class="chip-list">
+                    <li class="chip">Microsoft Azure &amp; Azure DevOps</li>
+                    <li class="chip">Kubernetes</li>
+                    <li class="chip">VMware &amp; vSphere</li>
+                    <li class="chip">Proxmox</li>
+                    <li class="chip">Datacenter Operations</li>
+                    <li class="chip">Docker</li>
+                    <li class="chip">Windows</li>
+                    <li class="chip">Linux</li>
+                    <li class="chip">Git</li>
+                    <li class="chip">Development Containers</li>
+                </ul>
+            </div>
+
+            <div class="side-section">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li>
+                        <span class="edu-dot"></span>
+                        <div>
+                            <p class="edu-name">Fort Gordon Military College - Vocational</p>
+                            <p class="edu-years">2011 &ndash; 2012</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="edu-dot"></span>
+                        <div>
+                            <p class="edu-name">Rangeview High School - HS Degree</p>
+                            <p class="edu-years">2004 &ndash; 2008</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- ===== MAIN ===== -->
+        <main class="main">
+
+            <div class="terminal-bar">
+                <div class="terminal-dots"><span></span><span></span><span></span></div>
+                <div class="terminal-path">jklepsch@resume:~</div>
+            </div>
+
+            <section class="section">
+                <h2><span class="prompt">$</span> cat summary.txt</h2>
+                <p class="summary-text">
+                    Hybrid Engineer supporting the evolution of IT environments across virtualization, cloud,
+                    and physical data centers. Currently focused on modern DevOps practices including GitOps (FluxCD),
+                    and container orchestration (Kubernetes).</p>
+            </section>
+
+            <section class="section">
+                <h2><span class="prompt">$</span> ls projects/</h2>
+                <ul class="project-list">
+                    <li class="project-card">
+                        <div class="project-card-head">
+                            <span class="project-icon">&#9083;</span>
+                            <span class="project-name">This Website!</span>
+                        </div>
+                        <p>View the project for this website on <a href="https://github.com/Vero882/crc" target="_blank"
+                                rel="noopener noreferrer">GitHub</a>.</p>
+                    </li>
+                    <li class="project-card">
+                        <div class="project-card-head">
+                            <span class="project-icon">&#9083;</span>
+                            <span class="project-name">Kubernetes Homelab</span>
+                        </div>
+                        <p>My live Kubernetes cluster, maintained by gitops with FluxCD. View the repo on <a
+                                href="https://github.com/Vero882/homelab" target="_blank"
+                                rel="noopener noreferrer">GitHub</a>.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2><span class="prompt">$</span> systemctl status experience</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <img class="company-logo" src="images/ccf.png" alt="Clear Creek Federal">
+                        <div class="work-item-content">
+                            <div class="work-item-header">
+                                <div class="work-item-titles">
+                                    <strong>Hybrid Solutions Engineer</strong>
+                                    <span class="work-company">Clear Creek Federal</span>
+                                </div>
+                                <div class="work-item-meta">
+                                    <span class="status-pill active"><span class="pulse-dot"></span>Present</span>
+                                    <span class="work-dates">Oct 2024 &ndash; Present</span>
+                                </div>
+                            </div>
+                            <details>
+                                <summary>Details</summary>
+                                <ul class="achievements">
+                                    <li>Administering and maintaining up to 14 on-premises VMWare virtual infrastructure
+                                        clusters comprised of 350+ hosts on the Dell VXRail and Dell Powerflex platforms
+                                        across multiple US data centers</li>
+                                    <li>Collaboration with vendors to provide technical, government-approved solutions
+                                        in accordance with customer requirements</li>
+                                    <li>Contribute prior cloud expertise to support the future implementation of a
+                                        hybrid environment</li>
+                                    <li>Provided insight to implement Remote Desktop Services (RDS) for the team to
+                                        allow for multiple remote desktop sessions</li>
+                                    <li>Initial testing of Terraform implementation as an infrastructure as code (IaC)
+                                        tool to improve operation team's VM deployment times</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <img class="company-logo" src="images/GHS.jpeg" alt="Great Hills Solutions">
+                        <div class="work-item-content">
+                            <div class="work-item-header">
+                                <div class="work-item-titles">
+                                    <strong>Cloud Engineer</strong>
+                                    <span class="work-company">Great Hills Solutions</span>
+                                </div>
+                                <div class="work-item-meta">
+                                    <span class="status-pill">Stopped</span>
+                                    <span class="work-dates">Aug 2024 &ndash; Oct 2024</span>
+                                </div>
+                            </div>
+                            <details>
+                                <summary>Details</summary>
+                                <ul class="achievements">
+                                    <li>Administration of multiple Microsoft Azure federal enterprise cloud environments
+                                        totaling of up to 10,000 users</li>
+                                    <li>Managed customer incidents and requests through ServiceNow to ensure efficient
+                                        resolution and service delivery</li>
+                                    <li>Managed role-based access control (RBAC), network security groups (NSG), and
+                                        Azure Entra (formally known as Azure Active Directory AAD) across over 60
+                                        Microsoft Azure subscriptions to ensure secure cloud environments</li>
+                                    <li>Directed and leveraged pipelines in Azure DevOps for continuous integration and
+                                        continuous delivery (CI/CD)</li>
+                                    <li>Participated in meetings with customers to deliver customized services aligned
+                                        with their specific requirements</li>
+                                    <li>Performance of scheduled maintenance for tasks, such as networking updates and
+                                        CIDR range adjustments, within customer subscriptions</li>
+                                    <li>Deployed and maintained Azure Virtual Desktop environments utilizing a
+                                        Blue/Green strategy to provide secure and scalable virtualized desktop
+                                        experiences for end-users</li>
+                                    <li>Developed comprehensive documentation and standard operating procedures (SOPs)
+                                        to enhance operational efficiency, ensure consistency, and support compliance
+                                        within standards</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <img class="company-logo" src="images/DSpec.jpeg" alt="DigitalSpec LLC">
+                        <div class="work-item-content">
+                            <div class="work-item-header">
+                                <div class="work-item-titles">
+                                    <strong>Cloud Engineer</strong>
+                                    <span class="work-company">DIGITALSPEC, LLC.</span>
+                                </div>
+                                <div class="work-item-meta">
+                                    <span class="status-pill">Stopped</span>
+                                    <span class="work-dates">Oct 2023 &ndash; Aug 2024</span>
+                                </div>
+                            </div>
+                            <details>
+                                <summary>Details</summary>
+                                <ul class="achievements">
+                                    <li>Held the same position and responsibilities as above prior to contractual
+                                        changeover</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <img class="company-logo" src="images/DSpec.jpeg" alt="DigitalSpec LLC">
+                        <div class="work-item-content">
+                            <div class="work-item-header">
+                                <div class="work-item-titles">
+                                    <strong>Level 2 Enterprise Operations Engineer</strong>
+                                    <span class="work-company">DIGITALSPEC, LLC.</span>
+                                </div>
+                                <div class="work-item-meta">
+                                    <span class="status-pill">Stopped</span>
+                                    <span class="work-dates">Jul 2019 &ndash; Oct 2023</span>
+                                </div>
+                            </div>
+                            <details>
+                                <summary>Details</summary>
+                                <ul class="achievements">
+                                    <li>Responsible for over 5,000 physical devices in one data center, and a team of up
+                                        to 4 other datacenter engineers</li>
+                                    <li>Virtual server management across three different US data centers across the US,
+                                        and assistance of managing virtual infrastructure at US embassies around the
+                                        globe</li>
+                                    <li>Oversight of Virtual Machines (VMs) within a VMWare environment</li>
+                                    <li>Executed rack, stack, and structured cabling for enterprise hardware deployments
+                                        and infrastructure expansion</li>
+                                    <li>Coordinated with teams for scheduled physical device cutovers and emergency
+                                        break/fixes</li>
+                                    <li>Performed physical layer (Layer 1) troubleshooting to diagnose and resolve
+                                        connectivity and hardware issues</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <img class="company-logo" src="images/Army.jpeg" alt="US Army">
+                        <div class="work-item-content">
+                            <div class="work-item-header">
+                                <div class="work-item-titles">
+                                    <strong>LAN Manager/Specialist</strong>
+                                    <span class="work-company">US Army</span>
+                                </div>
+                                <div class="work-item-meta">
+                                    <span class="status-pill">Stopped</span>
+                                    <span class="work-dates">Jun 2011 &ndash; Jun 2019</span>
+                                </div>
+                            </div>
+                            <details>
+                                <summary>Details</summary>
+                                <ul class="achievements">
+                                    <li>Served in two roles above assigned rank (E7/O3 equivalent), supporting
+                                        battalion-level operations and improving communication flow between leadership
+                                        and subordinate units</li>
+                                    <li>Provided Tier 1/2 technical support (hardware/software), including
+                                        troubleshooting, data backup, and initial diagnostics for 100+ users across four
+                                        companies</li>
+                                    <li>Led large-scale OS migration projects, upgrading ~750 systems from Windows XP to
+                                        Windows 7 and ~250 systems from Windows 7 to Windows 10</li>
+                                    <li>Supervised, trained, and delegated tasks to teams of up to 9 personnel, ensuring
+                                        accountability and operational execution</li>
+                                    <li>Managed structured network cabling to maintain reliable connectivity and
+                                        minimize downtime</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('dark-mode-toggle');
+
+        function applyDarkMode() {
+            document.body.classList.toggle('dark-mode', toggle.checked);
+        }
+
+        applyDarkMode();
+        toggle.addEventListener('change', applyDarkMode);
+    </script>
+</body>
+
+</html>
